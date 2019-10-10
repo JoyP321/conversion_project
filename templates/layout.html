@@ -16,9 +16,17 @@
           <a class="navbar-brand" href=".">My Website</a>
         </div>
           <ul class="nav navbar-nav">
-            <li {% if active_page == "home" %}class="active" {% endif %}><a href=".">Home</a></li>
-            <li {% if active_page == "page1" %}class="active" {% endif %}><a href="/p1">Page 1</a></li>
-            <li {% if active_page == "page2" %}class="active" {% endif %}><a href="/p2">Page 2</a></li>
+            <li class="nav-item" {% if active_page == "home" %}class="active" {% endif %}>
+              <a href=".">Home</a>
+            </li>
+            
+            <li class="nav-item" {% if active_page == "page1" %}class="active" {% endif %}>
+              <a href="/p1">Page 1</a>
+            </li>
+            
+            <li class="nav-item" {% if active_page == "page2" %}class="active" {% endif %}>
+              <a href="/p2">Page 2</a>
+            </li>
           </ul>
       </div>
     </nav>
