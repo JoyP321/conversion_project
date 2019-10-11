@@ -14,7 +14,9 @@ def render_page1():
         toReturn = meters*100.0
     if unit == "inches" :
         toReturn = meters*39.3701
-    return render_template('page1.html')
+    if unit == "feet" :
+        toReturn = meters*3.28084
+    return render_template('page1.html', responseFromServer = toReturn)
 
 @app.route("/p2")
 def render_page2():
