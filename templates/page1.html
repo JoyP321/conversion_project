@@ -4,21 +4,18 @@
 
 {% block content %}
   <h1>Length</h1>
-  <form action=''>
+  <form action='/p1'>
+    <feildset>
       Enter a value in meters<br>
       <input type="text" name="input">
       <br>
-      <input type="submit">
-  </form>
-  <br>
-  <br>
-  <form action=''>
       Select the unit to convert to<br>
       <input type="radio" name="newUnit" value="centimeters"> Centimeters <br>
       <input type="radio" name="newUnit" value="feet"> Feet <br>
       <input type="radio" name="newUnit" value="inches"> Inches <br>
       <br>
       <input type="submit">
+    </feildset>
   </form> 
 <p>{{responseFromServer}}</p>
 {% endblock %}
