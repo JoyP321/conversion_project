@@ -20,6 +20,12 @@ def render_response():
         toReturn = start*39.3701
     if unit == "feet" :
         toReturn = start*3.28084
+    if unit == "pounds" :
+        toReturn = start*453.592
+    if unit == "ounces" :
+        toReturn = start*28.3495
+    if unit == "kilograms" :
+        toReturn = start/1000.0
     return render_template('response.html', responseFromServer = str(toReturn) + " " + unit)
 
 @app.route("/p2")
