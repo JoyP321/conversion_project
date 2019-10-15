@@ -20,7 +20,7 @@ def render_response():
         toReturn = meters*39.3701
     if unit == "feet" :
         toReturn = meters*3.28084
-    return render_template('response.html', responseFromServer = toReturn)
+    return render_template('response.html', responseFromServer = toReturn + unit)
 
 @app.route("/p2")
 def render_page2():
