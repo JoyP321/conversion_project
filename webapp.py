@@ -8,7 +8,7 @@ def render_main():
 
 @app.route("/p1") #annotations tell which function go with which request
 def render_page1():
-     meters = float(request.args['input'])
+    meters = float(request.args['input'])
     unit = request.args['newUnit']
     if unit == "centimeters" :
         toReturn = meters*100.0
