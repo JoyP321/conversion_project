@@ -12,7 +12,7 @@ def render_page1():
 
 @app.route("/response")
 def render_response():
-    meters = request.args['input']
+    meters = float(request.args['input'])
     unit = request.args['newUnit']
     if unit == "centimeters" :
         toReturn = meters*100.0
