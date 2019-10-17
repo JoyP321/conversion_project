@@ -21,7 +21,7 @@ def render_response():
     if unit == "feet" :
         toReturn = start*3.28084
     if unit == "pounds" :
-        toReturn = start*453.592
+        toReturn = start/453.592
     if unit == "ounces" :
         toReturn = start*28.3495
     if unit == "kilograms" :
