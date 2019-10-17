@@ -11,7 +11,6 @@ input[type=text] {
 
 input[type=radio]{
    margin: 5px 20px;
-
 }
 
 input[type=submit]{
@@ -26,7 +25,6 @@ input[type=submit]{
 
 input[type=text]:focus {
   border: 3px solid #ccc;
-  color: #ccc;
 }
 
 p{
