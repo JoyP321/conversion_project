@@ -23,7 +23,7 @@ def render_response():
     if unit == "pounds" :
         toReturn = start/453.592
     if unit == "ounces" :
-        toReturn = start*28.3495
+        toReturn = start/28.3495
     if unit == "kilograms" :
         toReturn = start/1000.0
     return render_template('response.html', responseFromServer = "That is equal to " + str(toReturn) + " " + unit)
