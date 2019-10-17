@@ -6,6 +6,7 @@ input[type=text] {
   border: 3px solid #ccc;
   transition: 0.5s;
   outline: none;
+  color: #555;
 }
 
 input[type=radio]{
@@ -25,7 +26,8 @@ input[type=submit]{
 
 input[type=text]:focus {
   border: 3px solid #555;
-  background-color: #5BC0DE;
+  background-color: #5bc0de;
+  color: white;
 }
 
 p{
