@@ -25,9 +25,9 @@ input[type=submit]{
 }
 
 input[type=text]:focus {
-  border: 3px solid white;
+  border: 3px solid #ccc;
   background-color: #5bc0de;
-  color: white;
+  color: #ccc;
 }
 
 p{
