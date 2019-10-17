@@ -26,7 +26,7 @@ def render_response():
         toReturn = start*28.3495
     if unit == "kilograms" :
         toReturn = start/1000.0
-    return render_template('response.html', responseFromServer = str(toReturn) + " " + unit)
+    return render_template('response.html', responseFromServer = "That is equal to " + str(toReturn) + " " + unit)
 
 @app.route("/p2")
 def render_page2():
