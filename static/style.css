@@ -10,6 +10,9 @@ input[type=text] {
 
 input[type=radio]{
    margin: 5px 20px;
+   width: 100px;
+   height: 50px;
+   color: white;
 }
 
 input[type=submit]{
