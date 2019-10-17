@@ -17,9 +17,10 @@ input[type=submit]{
    margin: 5px 20px;
    border:none;
    background-color: #555;
-    width: 100px;
+   width: 100px;
    height: 50px;
    color: white;
+   border-radius: 4px;
 }
 
 input[type=text]:focus {
